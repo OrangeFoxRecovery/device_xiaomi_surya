@@ -4,10 +4,6 @@
 
 # mount point fstype  device        device2          flags
 
-/system_root   ext4   /dev/block/mapper/system
-/system_ext    ext4   /dev/block/mapper/system_ext
-/vendor        ext4   /dev/block/mapper/vendor
-/product       ext4   /dev/block/mapper/product
 /metadata      ext4   /dev/block/sda10       flags=display="Metadata";wrappedkey
 /boot          emmc   /dev/block/sde46
 /dtbo          emmc   /dev/block/sde47       flags=display="DTBO";backup=1;flashimg
